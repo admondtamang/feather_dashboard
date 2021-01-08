@@ -25,8 +25,9 @@ body {
     border-radius: 5px;
 }
 .card {
-    border-color: #e8e6e6;
     border-radius: 10px;
     border: 1px solid #e8e6e6;
-    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034);
+    -webkit-box-shadow: 2px 0px 4px 0px #c4c4c4;
+    -moz-box-shadow: 2px 0px 4px 0px #c4c4c4;
+    box-shadow: 2px 0px 4px 0px #c4c4c4;
 }

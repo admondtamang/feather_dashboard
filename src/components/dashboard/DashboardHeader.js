@@ -5,8 +5,7 @@ export default function DashboardHeader() {
         <>
             <header className="dashboard__header">
                 <div className="header__breadcrum">
-                    <span> Dashboard / List Page</span>{" "}
-                    <bold>/ Single Page</bold>
+                    <span> Dashboard / List Page</span> <b>/ Single Page</b>
                 </div>
                 <div className="header__right">
                     <div className="header__right_buttons">
