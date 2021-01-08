@@ -1,0 +1,119 @@
+.dashboard {
+    width: 100%;
+    padding: 50px;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        span,
+        bold {
+            font-size: 17px;
+            font-weight: 400;
+        }
+        span {
+            color: #a5a5a5;
+        }
+        bold {
+            color: #004cef;
+        }
+        .header__right {
+            display: flex;
+            justify-content: space-between;
+            gap: 1em;
+            align-items: center;
+            &_buttons {
+                display: flex;
+                justify-content: space-between;
+                gap: 0.5em;
+                .contain {
+                    background-color: #004cef;
+                    padding: 6px 25px;
+                    color: white;
+                    border-radius: 5px;
+                }
+                .outline {
+                    background-color: white;
+                    border: 1px solid #004cef;
+                    padding: 6px 25px;
+                    border-radius: 5px;
+                }
+            }
+            &_icons {
+                display: flex;
+                align-items: center;
+
+                img {
+                    margin: 0 15px;
+                    width: 36px;
+                }
+            }
+        }
+    }
+
+    // Dashboard Notication
+    .dashboardnotification {
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        align-items: center;
+        width: 100%;
+        padding: 26px;
+        background-color: #ffefef;
+        border-color: 1px solid #f1ecec;
+        border-radius: 20px;
+        p {
+            color: #4c4b49;
+        }
+        a {
+            color: #004cef;
+        }
+    }
+
+    // Dashboard Container
+    .dashboardContainer {
+        display: flex;
+        &__left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 20px;
+            .feather__card {
+                position: relative;
+                width: 320px;
+                padding: 30px;
+                .feather__card_menu {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                }
+                h1 {
+                    font-size: 17px;
+                    padding: 0;
+                    color: #464646;
+                }
+                a {
+                    margin: 10px 0;
+                }
+                img {
+                    max-width: 72px;
+                }
+                span {
+                    color: #7c7c7c;
+                    font-size: 14px;
+                }
+                hr {
+                    background-color: #ebeaea;
+                    margin: 10px 0;
+                }
+                .profile {
+                    display: flex;
+                    gap: 1em;
+                    align-items: center;
+                    img {
+                        max-width: 57px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.sidebar {
+    background-color: white;
+    width: calc(mac(20%, 200px));
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    h1 {
+        padding: 39px 45px;
+        color: #004cef;
+        font-size: 27px;
+        font-weight: 700;
+    }
+    ul {
+        padding: 20px;
+        a {
+            text-decoration: none;
+            color: #5d5d5d;
+            li {
+                padding: 15px 20px;
+                display: flex;
+                gap: 1em;
+                justify-content: space-between;
+                span {
+                    padding-right: 88px;
+                }
+            }
+        }
+    }
+}
+
+.active_menu {
+    border-radius: 10px;
+    background-color: #e7eefe;
+}

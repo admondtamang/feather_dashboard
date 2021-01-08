@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fcfcfc;
+}
+
+.contain {
+    background-color: #004cef;
+    padding: 6px 25px;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    max-width: 196px;
+    text-align: center;
+}
+.outline {
+    max-width: 196px;
+    background-color: transparent;
+    border: 1px solid #004cef;
+    text-align: center;
+    padding: 6px 25px;
+    border-radius: 5px;
+}
+.card {
+    border-color: #e8e6e6;
+    border-radius: 10px;
+    border: 1px solid #e8e6e6;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034);
+}
