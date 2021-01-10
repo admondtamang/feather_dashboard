@@ -24,7 +24,7 @@ export default function DashboardCardUser() {
             <p>18/09/2018</p>
             <hr />
             <div className="profile">
-                <img src="avatar.png" alt="avt" />
+                <img src="user.png" alt="avt" />
                 <div className="profile__right">
                     <h1>John Maharjan</h1>
                     <span>

@@ -18,9 +18,22 @@ export default function Dashboard() {
                     <DashboardCardNotes />
                 </div>
                 <div className="dashboardcontainer__right">
-                    <DashboardTabs />
+                    <DashboardTabs
+                        tab1="Documents"
+                        tab2="Notes"
+                        tab3="Communication Log"
+                    />
                 </div>
             </div>
+            <footer>
+                <h1>Feather UI</h1>
+                <ul>
+                    <li>About the company</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms and condition</li>
+                    <li>Contact</li>
+                </ul>
+            </footer>
         </div>
     );
 }

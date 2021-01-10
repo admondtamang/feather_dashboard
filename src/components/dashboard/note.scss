@@ -4,8 +4,14 @@
     margin-top: 15px;
     .note {
         display: flex;
+        position: relative;
         margin-bottom: 15px;
         gap: 1em;
+        padding: 10px;
+        &:hover {
+            border-radius: 10px;
+            background-color: #e7eefe;
+        }
         .rounded__avatar {
             min-width: 37px;
             height: 37px;

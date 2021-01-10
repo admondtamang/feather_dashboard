@@ -10,7 +10,7 @@ export default function DashboardCardNotes() {
             </header>
             <div className="notes">
                 <Note
-                    details="Fragrances can often reflect our mood and personality..."
+                    details="The function of logo..."
                     time="9:47 AM"
                     date="18/10/2020"
                     color="red"

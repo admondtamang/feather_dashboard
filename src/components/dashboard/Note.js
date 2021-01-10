@@ -1,8 +1,16 @@
 import React from "react";
 import "./note.scss";
-export default function Note({ details, time, date, color, tab2, title }) {
+export default function Note({
+    details,
+    time,
+    date,
+    color,
+    tab2,
+    title,
+    onClick,
+}) {
     return (
-        <div className="note">
+        <div className="note" onClick={onClick}>
             <div
                 className="rounded__avatar"
                 style={{ background: color ? color : "yellow" }}

@@ -90,6 +90,7 @@
         gap: 20px;
         .dashboardcontainer__right {
             flex-basis: 100%;
+
             .dashboardtabs {
                 padding: 20px;
                 .dasboardtabs__upload {
@@ -116,7 +117,11 @@
                 padding: 30px;
 
                 // Dashboard card notes
-
+                .profile {
+                    img {
+                        border-radius: 50px;
+                    }
+                }
                 .card__header {
                     display: flex;
                     justify-content: space-between;
@@ -213,6 +218,30 @@
                             margin-left: auto;
                         }
                     }
+                }
+            }
+        }
+    }
+    footer {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        h1 {
+            color: #004cef;
+            font-size: 27px;
+            font-weight: 700;
+        }
+        ul {
+            li {
+                list-style: none;
+                color: #5d5d5d;
+
+                float: left;
+                border-right: 1px solid #000;
+                margin-right: 5px;
+                padding-right: 5px;
+                &:last-child {
+                    border-right: none;
                 }
             }
         }

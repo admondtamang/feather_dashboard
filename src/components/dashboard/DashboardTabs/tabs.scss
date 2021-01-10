@@ -1,0 +1,43 @@
+.tab2 {
+    article {
+        .paragraph {
+            padding: 20px;
+        }
+        header {
+            display: flex;
+            margin-bottom: 20px;
+            justify-content: space-between;
+            .header__left {
+                display: flex;
+                gap: 1em;
+                p {
+                    span {
+                        color: grey;
+                    }
+                }
+            }
+        }
+        .content__header {
+            display: flex;
+            justify-content: space-between;
+            .content__left {
+                display: flex;
+                .avatar {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 10px;
+                    border-radius: 50px;
+                    background-color: blue;
+                }
+                p {
+                    span {
+                        color: grey;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .note__details {
+            }
+        }
+    }
+}

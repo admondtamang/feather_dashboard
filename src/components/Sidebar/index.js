@@ -7,7 +7,7 @@ export default function Sidebar() {
         <div className="sidebar">
             <h1>Feather UI</h1>
             <ul>
-                <Link to="/dasboard">
+                <Link to="/">
                     <li>
                         <box-icon name="rocket"></box-icon>
                         <span>Dashboard</span>
@@ -18,7 +18,7 @@ export default function Sidebar() {
                         ></box-icon>
                     </li>
                 </Link>{" "}
-                <Link to="/dasboard">
+                <Link to="/">
                     <li className="active_menu">
                         <box-icon name="rocket"></box-icon>
                         <span>Dashboard</span>
@@ -29,7 +29,7 @@ export default function Sidebar() {
                         ></box-icon>
                     </li>
                 </Link>{" "}
-                <Link to="/dasboard">
+                <Link to="/">
                     <li>
                         <box-icon name="rocket"></box-icon>
                         <span>Dashboard</span>
@@ -40,7 +40,7 @@ export default function Sidebar() {
                         ></box-icon>
                     </li>
                 </Link>{" "}
-                <Link to="/dasboard">
+                <Link to="/">
                     <li>
                         <box-icon name="rocket"></box-icon>
                         <span>Dashboard</span>
